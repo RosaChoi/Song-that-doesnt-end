@@ -1,4 +1,13 @@
-<div class="starter-template">
-  <h1>Nothing here yet...</h1>
-  <p class="lead">Better get crackin'!!</p>
+<div class="container text-center">
+  <p class="song-verse">
+    This is the song that doesn't end
+  </p>
+  <div class="img-responsive">
+    <%= image_tag 'verse1.jpg', :class => "img" %>
+  </div>
+  <nav>
+    <ul class="pager">
+      <li><%= link_to "Next >>", verse_2_path %></li>
+    </ul>
+  </nav>
 </div>
